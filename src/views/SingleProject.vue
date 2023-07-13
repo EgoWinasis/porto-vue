@@ -16,9 +16,9 @@ export default {
 	data: () => {
 		return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Project Management UI',
-				singleProjectDate: 'Jul 26, 2021',
-				singleProjectTag: 'UI / Frontend',
+				singleProjectTitle: 'Full Stack Web Development',
+				singleProjectDate: 'Maret, 2023',
+				singleProjectTag: 'Web Development',
 			},
 			projectImages: [
 				{
@@ -43,27 +43,18 @@ export default {
 					{
 						id: 1,
 						title: 'Name',
-						details: 'Company Ltd',
+						details: 'Elementary School in Indonesia',
 					},
 					{
 						id: 2,
 						title: 'Services',
-						details: 'UI Design & Frontend Development',
-					},
-					{
-						id: 3,
-						title: 'Website',
-						details: 'https://company.com',
-					},
-					{
-						id: 4,
-						title: 'Phone',
-						details: '555 8888 888',
-					},
+						details: 'Web Application',
+					}
+					
 				],
 				objectivesHeading: 'Objective',
 				objectivesDetails:
-					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+					'Create applications that are useful for supporting activities at school, and have various features according to school needs.',
 				technologies: [
 					{
 						title: 'Tools & Technologies',
@@ -71,9 +62,8 @@ export default {
 							'HTML',
 							'CSS',
 							'JavaScript',
-							'Vue.js',
-							'TailwindCSS',
-							'AdobeXD',
+							'Laravel',
+							'Mysql'
 						],
 					},
 				],
@@ -82,22 +72,28 @@ export default {
 					{
 						id: 1,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							'Difficulty in determining user requirements. This is important because the website application must be able to meet user needs. If the users needs are not met, then the website application will not be used.',
 					},
 					{
 						id: 2,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-					},
+							'Difficulty in choosing the right technology. There are many technologies that can be used to develop web applications. Selection of the right technology will greatly affect the performance and cost of website application development.',
+					}
+					,
 					{
 						id: 3,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+							'Difficulties in designing user-friendly website applications. The website application must be easy for users to use. If the website application is not user-friendly, users will quickly give up and not use the website application.',
 					},
 					{
 						id: 4,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							'Difficulties in developing secure web applications. Website applications must be able to protect user data from hacker attacks. If the website application is not secure, then user data can be stolen or misused.',
+					},
+					{
+						id: 5,
+						details:
+							'Difficulties in maintaining website applications. After the website application has been developed, the website application must still be maintained. Website application maintenance includes feature updates, bug fixes, and security improvements.',
 					},
 				],
 				socialSharingsHeading: 'Share This',
@@ -106,13 +102,13 @@ export default {
 						id: 1,
 						name: 'Twitter',
 						icon: 'twitter',
-						url: 'https://twitter.com/realstoman',
+						url: 'https://twitter.com/',
 					},
 					{
 						id: 2,
 						name: 'Instagram',
 						icon: 'instagram',
-						url: 'https://instagram.com/realstoman',
+						url: 'https://instagram.com/',
 					},
 					{
 						id: 3,
@@ -130,7 +126,7 @@ export default {
 						id: 5,
 						name: 'Youtube',
 						icon: 'youtube',
-						url: 'https://www.youtube.com/c/StomanStudio',
+						url: 'https://www.youtube.com/',
 					},
 				],
 			},
