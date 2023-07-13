@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy" : "sh deploy.sh"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
@@ -51,6 +52,6 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ],
-  "deploy" : "sh deploy.sh"
+  ]
+ 
 }
