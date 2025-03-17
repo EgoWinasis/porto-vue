@@ -11,13 +11,18 @@ export default {
 			clients: [
 				{
 					id: 1,
-					title: 'Amazon',
+					title: 'Dinsa Pendidikan',
 					img: require('@/assets/images/brands/dikbud.png'),
 				},
 				{
 					id: 2,
-					title: 'Sony',
+					title: 'MI Bandasari',
 					img: require('@/assets/images/brands/mi_bandasari.png'),
+				},
+				{
+					id: 3,
+					title: 'PT BPR Nusamba Adiwerna',
+					img: require('@/assets/images/brands/nusamba.png'),
 				}
 			],
 		};

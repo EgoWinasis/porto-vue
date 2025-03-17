@@ -38,6 +38,30 @@ const projects = [
 		category: 'Web Application',
 		img: require('@/assets/images/web-project-1.jpg'),
 	},
+	{
+		id: 7,
+		title: 'Doorprize App',
+		category: 'Python Application',
+		img: require('@/assets/images/doorprize.png'),
+	},
+	{
+		id: 8,
+		title: 'Doorprize Dashboard App',
+		category: 'Web Application',
+		img: require('@/assets/images/doorprize2.png'),
+	},
+	{
+		id: 9,
+		title: 'Banking Internal App',
+		category: 'Web Application',
+		img: require('@/assets/images/presensi2.png'),
+	},
+	{
+		id: 10,
+		title: 'Al-Quran App',
+		category: 'Web Application',
+		img: require('@/assets/images/al-quran-app-one-vercel-app-.png'),
+	},
 ];
 
 export default projects;

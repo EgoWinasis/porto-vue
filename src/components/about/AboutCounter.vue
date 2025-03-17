@@ -26,7 +26,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="1"
+					:endAmount="5"
 					:duration="1"
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"
@@ -45,7 +45,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="20"
+					:endAmount="33"
 					:duration="1"
 					
 					:autoinit="true"
@@ -82,7 +82,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="6"
+					:endAmount="15"
 					:duration="1"
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"
