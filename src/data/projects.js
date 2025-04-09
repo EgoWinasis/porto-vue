@@ -109,6 +109,16 @@ const projects = [
     stack: 'React Node.js',
     languages: 'JavaScript HTML CSS',
   },
+  {
+    id: 12,
+    title: 'Space War : Typing Attack',
+    category: 'Game',
+    img: require('@/assets/images/space-war.png'),
+    link: 'https://space-war-pi.vercel.app/',
+    description: 'A fun typing game where players type words to defeat enemies in space.',
+    stack: 'construct 3d',
+    languages: 'JavaScript HTML CSS',
+  },
 ];
 
 export default projects;
