@@ -113,7 +113,7 @@ const projects = [
     id: 12,
     title: 'Space War : Typing Attack',
     category: 'Game',
-    img: require('@/assets/images/space-war.png'),
+    img: require('@/assets/images/Space-War.png'),
     link: 'https://space-war-pi.vercel.app/',
     description: 'A fun typing game where players type words to defeat enemies in space.',
     stack: 'construct 3d',
