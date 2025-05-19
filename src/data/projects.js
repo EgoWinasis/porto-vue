@@ -119,6 +119,36 @@ const projects = [
     stack: 'construct 3d',
     languages: 'JavaScript HTML CSS',
   },
+  {
+    id: 13,
+    title: 'JNT Cargo Attendance and Leave with Location Tracking',
+    category: 'Web Application',
+    img: require('@/assets/images/presensi-jnt.png'),
+    link: '/',
+   description: 'A web application for recording attendance and leave requests of JNT Cargo employees using location tracking. The system supports location verification during check-ins, leave management, and an attendance report dashboard.',
+    stack: 'Laravel MySQL',
+    languages: 'PHP JavaScript HTML CSS',
+  },
+  {
+    id: 14,
+    title: 'Company Profile Website',
+    category: 'Web Application',
+    img: require('@/assets/images/tsg.png'),
+    link: 'https://landing-page-tsg.vercel.app/',
+    description: 'A modern company profile website built using React and Next.js, designed to showcase company information, services, portfolio, and contact details with a responsive and interactive user interface.',
+    stack: 'React, Node.js, Next.js',
+    languages: 'JavaScript, HTML, CSS',
+  },
+{
+    id: 12,
+    title: 'Harry Potter : The Secret Spell',
+    category: 'Game',
+    img: require('@/assets/images/harry.png'),
+    link: 'https://harry-potter-game-nine.vercel.app/',
+    description: 'An action-adventure browser game inspired by the Harry Potter universe, where players explore magical environments, solve challenges, and cast spells to defeat enemies.',
+    stack: 'construct 3d',
+    languages: 'JavaScript HTML CSS',
+  },
 ];
 
 export default projects;
