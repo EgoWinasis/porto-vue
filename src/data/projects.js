@@ -140,7 +140,7 @@ const projects = [
     languages: 'JavaScript, HTML, CSS',
   },
 {
-    id: 12,
+    id: 15,
     title: 'Harry Potter : The Secret Spell',
     category: 'Game',
     img: require('@/assets/images/harry.png'),
@@ -149,6 +149,17 @@ const projects = [
     stack: 'construct 3d',
     languages: 'JavaScript HTML CSS',
   },
+{
+  id: 16,
+  title: 'Student Organization Management System',
+  category: 'Web Application',
+  img: require('@/assets/images/ormawa.png'),
+  link: '/',
+  description: 'A web-based application designed to help manage student organizations by centralizing member data, activities, and administrative processes efficiently.',
+  stack: 'Laravel MySQL',
+  languages: 'PHP JavaScript HTML CSS',
+},
+
 ];
 
 export default projects;
