@@ -159,6 +159,17 @@ const projects = [
   stack: 'Laravel MySQL',
   languages: 'PHP JavaScript HTML CSS',
 },
+{
+  id: 17,
+  title: 'Village Correspondence Information System',
+  category: 'Web Application',
+  img: require('@/assets/images/balaidesa.png'),
+  link: '/',
+  description: 'A web-based application designed to manage village correspondence services, including letter submission, template management, verification, and digital archiving to improve efficiency and transparency.',
+  stack: 'Codeigniter MySQL',
+  languages: 'PHP JavaScript HTML CSS',
+},
+
 
 ];
 
