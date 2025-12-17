@@ -62,7 +62,7 @@ const projects = [
   {
     id: 7,
     title: 'Doorprize App',
-    category: 'Python Application',
+    category: 'Dekstop Application',
     img: require('@/assets/images/doorprize.png'),
     link: '/',
     description: 'A Python-based app for organizing door prize draws in events.',
